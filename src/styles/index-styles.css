@@ -7,36 +7,47 @@
 *{
   box-sizing: border-box;
   padding: 0px;
+  margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+
+  --primary-color: #012340;
+  --secondary-color: #da5454;  
 }
 
-
-
-/* Navigation */
-
-
-
-
-
-
-
-
-nav div{
-    padding: 10px;
-}
-
-nav div a{
-margin: 5%em: 10rem;
+/* Body */
+body {
+  background-color: var(--primary-color);
 }
 
 
 
 
+/* Header */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-color); 
+}
+header img{
+  margin: 0.5rem;
+}
+nav a{
+  margin: 0.5rem;
+}
+
+
+
+
+
+a{
+  color: white;
+}
 
 /* Buttons */
 
 a:link, a:visited {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 
@@ -47,17 +58,6 @@ a:hover {
   text-underline-offset: 0.5rem;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
