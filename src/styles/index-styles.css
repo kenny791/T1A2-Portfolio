@@ -3,7 +3,7 @@
 
 
 
-/* Global styles*/
+/* Page styles*/
 *{
   box-sizing: border-box;
   padding: 0px;
@@ -12,7 +12,18 @@
 
   --primary-color: #012340;
   --secondary-color: #da5454;  
+  text-decoration: none;
+
 }
+
+a{
+  color: white;
+}
+
+
+
+
+
 
 /* Body */
 body {
@@ -37,52 +48,51 @@ nav a{
 }
 
 
-
-
-
-a{
-  color: white;
-}
-
 /* Buttons */
 
-a:link, a:visited {
+nav a:link, nav a:visited {
   color: white;
-  text-decoration: none;
 }
 
-
-
-a:hover {
+nav a:hover {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
-
 }
 
 
 
-
-/* Main body */
-h1{
-  display: wrap;
-  flex-wrap: wrap;
-  flex: 1rem;
-    color: red;
-    text-align: center;
+/* Main */
+#hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/src/images/hero.jpg) no-repeat center;
+  background-color: #54dacf;
+  background-size: cover;
 }
 
-
-
-h2 {
-  padding: 1rem;
-  border: .1rem solid black;
-  text-align: center;
+#hero h1{
+  margin: 3rem 0rem 1rem 0rem;
+  font-size: 4rem;
 }
 
+#hero h2{
+  margin: 1rem 0rem 1rem 0rem;
+}
 
+#hero a{
+border: 1px solid rgb(255, 255, 255);
+padding: 1em;
+margin: 3rem 0;
+}
 
-
-
+#hero a:hover{
+  color: black;
+  border: 1px solid white;
+  background-color:  white;
+  padding: 1em;
+}
 
 
 
