@@ -1,12 +1,32 @@
-* {border: 1px solid red;}
+// * {border: 1px solid red;}
 
 
 
 /* Main */
 main{
-    background: url(/src/images/hero.jpg) no-repeat center;
+    background: url(/src/images/hero.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    min-height: 500px;
 }
-
+#photo-container{
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(80, 80, 80);
+    width: 20vw; 
+    height: 20vw;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    margin: 50px;
+}   
 
 
 #hero{
@@ -18,18 +38,17 @@ main{
     height: 100vh;
     h1{
         margin: 10rem 0rem 0rem 0rem;
-        font-size: 4rem;
     }
     h2{
         margin: 1rem 0rem 1rem 0rem;
     }
-    a{
+    .contact-btn{
         border: 1px solid rgb(255, 255, 255);
         border-radius: 5%;
         padding: 1em;
         display: block;
     }
-    a:hover{
+    .contact-btn:hover{
       border: 1px solid white;
       background-color:  white;
       padding: 1em;
@@ -43,9 +62,44 @@ main{
 
 
 /* On screens that are 900px wide or less, the background color is blue */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 900px) {
+    Main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+            margin: 0 0 50px 0; 
+        #hero{
 
+            margin: 0 0 0 0;
+            height: auto;
+            h1{
+                text-align: center;
+                margin: 2rem 0rem 0rem 0rem;
+            }
+            h2{
+                text-align: center;
+            }
+
+
+        }
+        #photo-container{
+            display: flex;
+            border: 5px solid rgb(80, 80, 80);
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            // margin: 50px;
+        }    
+    }
+   
 }
+
+  
+
+
 
 /* On screens that are 550px wide or less, the background color is olive */
 @media screen and (max-width: 550px) {

@@ -8,7 +8,7 @@ $color-1:#001730;
 $color-2:#4ad7d1;
 $color-3: #FE4A49;
 $color-4: #f5f5f5;
-$text-color: orange;
+$text-color: white;
 $text-color-dark:black; 
 $text-link-hover-color:#077bbd;
 $font-family:'Montserrat', 'Lato', 'Open Sans', sans-serif;
@@ -39,28 +39,24 @@ body {
 
 //font styles
 h1{
-    border: 3px solid red;
+    // border: 3px solid red;
     font-size: 3rem;
     color: $text-color;
-    // font-family: $font-family;
     text-align: center;
 }
 h2{
-    border: 3px solid orange;
+    // border: 3px solid orange;
     font-size: 2rem;
     color: $text-color;
-    // font-family: $font-family;
 }
 h3{
-    border: 3px solid yellow;
+    // border: 3px solid yellow;
     font-size: 1.5rem;
     color: $text-color;
-    // font-family: $font-family;
 }
 p{
-    border: 3px solid green;
+    // border: 3px solid green;
     font-size: 0.9rem;
-    // font-family: $font-family;
 }
 
 

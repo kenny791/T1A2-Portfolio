@@ -55,12 +55,6 @@ main h2 {
   }
 }
 @media screen and (max-width: 550px) {
-  section h1 {
-    font-size: 2rem;
-  }
-  section h2 {
-    font-size: 1.5rem;
-  }
   .social-logo {
     max-width: 40px;
     max-height: 40px;
