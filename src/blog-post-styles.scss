@@ -11,7 +11,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 0 100px 0;
+    // margin: 0 0 100px 0;
 }
 
 
@@ -21,27 +21,23 @@ article{
     max-width: 750px;
     margin: 0 20vw 0 20vw;
     .title-image{ 
+        margin: 20px 0 20px 0;
+        width: auto;
         height: 20vw;
         object-fit:cover;
     }
-    // .title{
-    //     font-size: 3rem;
-    // }
     .publish-date{ 
-        // font-size: 1rem;
-        margin: 0 0 1em 0;
-    }
-    .main-text{
-        // font-size: 1rem;
+        margin: 0 0 2em 0;
     }
 }
 
 
 
 // screens 900px wide or less
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) { 
+    
     article{
-        margin: 0 0 40px 0;
+        margin: 0 10vw 0 10vw;
         .title-image {
             width: auto;
             height: 50vw;
@@ -56,15 +52,7 @@ article{
 
 // screens 500px wide or less
 @media screen and (max-width: 550px) { 
-    article{
-        // .title{
-        //     font-size: 2rem;
-        // }
-        .publish-date{
-            // font-size: 0.75rem;
-        }
-    }
-    
+
 }
 
 

@@ -12,27 +12,33 @@ body {
   flex-direction: column;
   position: relative;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #234a59;
+}
+
+h1, h2, h3, h4, p {
+  color: white;
 }
 
 h1 {
-  font-size: 3rem;
-  color: white;
+  margin: 20px 0 20px 0;
+  font-size: 4rem;
   text-align: center;
 }
 
 h2 {
+  font-size: 3rem;
+}
+
+h3 {
   font-size: 2rem;
-  color: white;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: white;
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .link, .link:visited {
@@ -51,11 +57,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #001730;
+  background-color: #012340;
 }
 header #logo {
   margin: 10px 10px;
-  box-sizing: content-box;
   display: block;
 }
 header .nav-btn {
@@ -63,7 +68,7 @@ header .nav-btn {
 }
 
 main {
-  margin: 0 0 50px 0;
+  padding: 0 0 100px 0;
 }
 
 footer {
@@ -71,14 +76,10 @@ footer {
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: #001730;
+  background-color: #012340;
   display: flex;
   justify-content: center;
-}
-footer p {
-  font-size: 0.5rem;
-  color: white;
-  align-self: flex-end;
+  align-items: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -94,5 +95,24 @@ footer p {
   #logo {
     width: 35%;
     margin: 5px 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+    padding: 0 10px 0 10px;
+  }
+  h3 {
+    font-size: 1.5rem;
+    padding: 0 10px 0 10px;
+  }
+  h4 {
+    font-size: 1rem;
+    padding: 0 10px 0 10px;
+  }
+  p {
+    font-size: 0.9rem;
+    padding: 0 10px 0 10px;
   }
 }/*# sourceMappingURL=global-styles.css.map */

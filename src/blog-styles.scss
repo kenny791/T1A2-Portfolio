@@ -4,11 +4,11 @@
 
 
 
-.page-name{
-    text-align: center;
-    // margin: 1rem 0;
-    width: 100%;
-}
+// .page-name{
+//     text-align: center;
+//     // margin: 1rem 0;
+//     width: 100%;
+// }
 
 main{
     a{
@@ -96,11 +96,11 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 0;
-        margin: 0 100px;
+        padding: 0 100px;
+        // margin: 0 100px;
 
         article{
-            border: 1px solid gray;
+            border: 3px solid white;
             width: 100%;
             margin: 0 0 20px;
             img{
@@ -127,7 +127,7 @@ main{
     main {
         display: flex;
         flex-direction: column;
-        margin: 0 0;
+        padding: 0 0;
 
         article{
             min-width: 100%;        

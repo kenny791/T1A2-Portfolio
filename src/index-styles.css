@@ -35,17 +35,22 @@ main {
 }
 #hero h1 {
   margin: 10rem 0rem 0rem 0rem;
+  text-shadow: 2px 2px 4px #000000;
 }
 #hero h2 {
   margin: 1rem 0rem 1rem 0rem;
+  text-shadow: 2px 2px 4px #000000;
 }
-#hero .contact-btn {
+#hero .large-btn {
+  text-shadow: 2px 2px 4px #000000;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5%;
   padding: 1em;
   display: block;
+  background-color: rgba(170, 170, 170, 0.496);
 }
-#hero .contact-btn:hover {
+#hero .large-btn:hover {
+  text-shadow: 0px 0px 0px #000000;
   border: 1px solid white;
   background-color: white;
   padding: 1em;

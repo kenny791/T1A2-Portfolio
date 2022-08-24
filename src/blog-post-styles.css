@@ -3,7 +3,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 100px 0;
 }
 
 article {
@@ -13,16 +12,19 @@ article {
   margin: 0 20vw 0 20vw;
 }
 article .title-image {
+  margin: 20px 0 20px 0;
+  width: auto;
   height: 20vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
 article .publish-date {
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
 }
+
 @media screen and (max-width: 900px) {
   article {
-    margin: 0 0 40px 0;
+    margin: 0 10vw 0 10vw;
   }
   article .title-image {
     width: auto;
