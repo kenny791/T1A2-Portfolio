@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 100px 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  margin: 0 20vw 0 20vw;
+}
+article .title-image {
+  height: 20vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+article .publish-date {
+  margin: 0 0 1em 0;
+}
+@media screen and (max-width: 900px) {
+  article {
+    margin: 0 0 40px 0;
+  }
+  article .title-image {
+    width: auto;
+    height: 50vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  article .title, article .publish-date, article .main-text {
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=blog-post-styles.css.map */

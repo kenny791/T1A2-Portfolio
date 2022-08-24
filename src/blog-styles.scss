@@ -1,0 +1,147 @@
+
+// *{border: 1px solid red}
+
+
+
+
+.page-name{
+    text-align: center;
+    // margin: 1rem 0;
+    width: 100%;
+}
+
+main{
+    a{
+        display: block;
+    }
+    
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    // height: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 1vw;
+    // margin: 0 0 50px 0;
+
+
+    article{
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap;
+        // width: 19vw;
+        // margin: 0 1vw;
+        // // border-top: 1px solid grey;
+        // border-bottom: 1px solid gray;
+        width: 18vw;
+        .blog-image{
+            display: block;
+            object-fit: cover;
+            height: 15vw;
+            width: 18vw;
+        }
+       
+        .blog-title{
+
+        }
+        a:hover {
+                text-decoration: underline;
+                text-underline-offset: 6px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    // article{
+    //     display: flex;
+    //     flex-direction: column;
+    //     flex-wrap: wrap;
+    //     width: 19vw;
+    //     margin: 0 1vw;
+    //     // border-top: 1px solid grey;
+    //     border-bottom: 1px solid gray;
+    //     img{
+    //         display: block;
+    //         object-fit: cover;
+    //         height: 20vw;
+    //         // width: ;
+    //     }
+    //     a:hover {
+    //             text-decoration: underline;
+    //             text-underline-offset: 6px;
+    //     }
+    // }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 900px wide or less, the background color is blue */
+@media screen and (max-width: 900px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0;
+        margin: 0 100px;
+
+        article{
+            border: 1px solid gray;
+            width: 100%;
+            margin: 0 0 20px;
+            img{
+                min-width: 100%;
+                min-height: 30vw; 
+            }
+            a:hover {
+                    text-decoration: underline;
+                    text-underline-offset: 6px;
+            }
+        }
+    }
+}
+
+
+
+// screens 500px wide or less
+@media screen and (max-width: 550px) {
+
+    // h1{
+    //     font-size: 2rem;
+    // }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+
+        article{
+            min-width: 100%;        
+            img{
+                min-width: 100%;
+                min-height: 30vw; 
+            }
+        }
+    }
+    a:hover {
+        text-decoration: underline;
+        text-underline-offset: 6px;
+    }
+}
+

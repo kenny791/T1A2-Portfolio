@@ -1,0 +1,71 @@
+.page-name {
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 1vw;
+}
+main a {
+  display: block;
+}
+main article {
+  width: 18vw;
+}
+main article .blog-image {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 15vw;
+  width: 18vw;
+}
+main article a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* On screens that are 900px wide or less, the background color is blue */
+@media screen and (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0;
+    margin: 0 100px;
+  }
+  main article {
+    border: 1px solid gray;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  main article img {
+    min-width: 100%;
+    min-height: 30vw;
+  }
+  main article a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+}
+@media screen and (max-width: 550px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+  }
+  main article {
+    min-width: 100%;
+  }
+  main article img {
+    min-width: 100%;
+    min-height: 30vw;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+}/*# sourceMappingURL=blog-styles.css.map */

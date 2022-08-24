@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main article {
+  width: 40vw;
+}
+main #photo {
+  align-self: flex-start;
+  height: 20vw;
+  margin: 4rem 0 0 2rem;
+}
+
+/* On screens that are 900px wide or less, the background color is blue */
+@media screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  main article {
+    width: 80vw;
+  }
+  main #photo {
+    align-self: center;
+    height: 100%;
+    width: 30vw;
+    margin: 2rem 0 0 0;
+  }
+}
+/* On screens that are 550px wide or less, the background color is olive */
+@media screen and (max-width: 550px) {
+  article {
+    min-width: 100%;
+    padding: 0 10px 0 10px;
+  }
+  #photo {
+    align-self: center;
+    height: 100%;
+    width: 30vw;
+    margin: 2rem 0 0 0;
+  }
+}/*# sourceMappingURL=about-styles.css.map */
