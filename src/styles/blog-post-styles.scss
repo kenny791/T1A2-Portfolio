@@ -23,7 +23,7 @@ article{
     .title-image{ 
         margin: 20px 0 20px 0;
         width: auto;
-        height: 20vw;
+        height: 40vw;
         object-fit:cover;
     }
     .publish-date{ 
@@ -40,7 +40,7 @@ article{
         margin: 0 10vw 0 10vw;
         .title-image {
             width: auto;
-            height: 50vw;
+            height: 60vw;
             object-fit:cover;
         }
         .title, .publish-date, .main-text{
@@ -52,6 +52,20 @@ article{
 
 // screens 500px wide or less
 @media screen and (max-width: 550px) { 
+
+    article{
+        margin: 0 0 0 0;
+        .title-image {
+            width: auto;
+            height: 60vw;
+            object-fit:cover;
+
+        }
+        .title, .publish-date, .main-text{
+            padding: 0 10px;
+        }
+    }
+
 
 }
 

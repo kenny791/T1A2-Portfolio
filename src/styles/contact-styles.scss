@@ -11,9 +11,8 @@ main{
         // min-width: 40vw;
     }
 
-    h2{
+    h3{
     margin: 10px 0 0 0;
-    font-size: 2rem;
     }
 }
 
@@ -31,6 +30,8 @@ main{
     border-radius: 15%;
     object-fit: cover;
     transition: all .1s ease-in-out;
+
+    filter: invert(1);    
     // margin: 10px 10px 0 0;
 }
 
@@ -92,14 +93,7 @@ main{
 
 // screens 550px wide or less
 @media screen and (max-width: 550px) { 
-    // section{
-    //     h1{
-    //         font-size: 2rem;
-    //     }
-    //     h2{
-    //         font-size: 1.5rem;
-    //     }
-    // }
+
     .social-logo{
         max-width: 40px;
         max-height: 40px;

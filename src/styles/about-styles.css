@@ -4,7 +4,7 @@ main {
   justify-content: center;
 }
 main article {
-  width: 40vw;
+  width: 45vw;
 }
 main #photo {
   align-self: flex-start;
@@ -13,16 +13,17 @@ main #photo {
 }
 
 h3 {
+  padding: 0 0 0 0;
   display: flex;
 }
 h3 .large-btn {
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 5%;
-  padding: 10px;
+  padding: 1em;
   display: block;
   background-color: rgba(170, 170, 170, 0.496);
 }
 h3 .large-btn:hover {
+  text-shadow: 0px 0px 0px #000000;
   border: 1px solid white;
   background-color: white;
   padding: 1em;
@@ -42,6 +43,9 @@ h3 .large-btn:hover {
     height: 100%;
     width: 30vw;
     margin: 2rem 0 0 0;
+  }
+  .large-btn {
+    margin: 10px;
   }
 }
 /* On screens that are 550px wide or less, the background color is olive */

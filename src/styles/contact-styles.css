@@ -7,9 +7,8 @@ main {
 main section {
   padding: 0 50px 0 50px;
 }
-main h2 {
+main h3 {
   margin: 10px 0 0 0;
-  font-size: 2rem;
 }
 
 #social-btn {
@@ -25,6 +24,7 @@ main h2 {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.1s ease-in-out;
+  filter: invert(1);
 }
 
 .social-logo:hover {

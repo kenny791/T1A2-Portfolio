@@ -14,7 +14,7 @@ article {
 article .title-image {
   margin: 20px 0 20px 0;
   width: auto;
-  height: 20vw;
+  height: 40vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -28,7 +28,21 @@ article .publish-date {
   }
   article .title-image {
     width: auto;
-    height: 50vw;
+    height: 60vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  article .title, article .publish-date, article .main-text {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  article {
+    margin: 0 0 0 0;
+  }
+  article .title-image {
+    width: auto;
+    height: 60vw;
     -o-object-fit: cover;
        object-fit: cover;
   }
