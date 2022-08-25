@@ -80,12 +80,15 @@ main{
             }
         }
 
-        h1{
-            text-align: center;
-        }
-
-
     }
+
+
+
+    // h1{
+    //     text-align: center;
+    //     border: 2px solid red;
+    //     padding: 30 0 0 0;
+    // }
 }
 
 
@@ -93,6 +96,8 @@ main{
 
 // screens 550px wide or less
 @media screen and (max-width: 550px) { 
+
+
 
     .social-logo{
         max-width: 40px;

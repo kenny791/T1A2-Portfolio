@@ -66,7 +66,7 @@ h1, h2, h3, h4, p{
 }
 
 h1{
-    margin: 20px 0 20px 0;
+    margin: 70px 0 20px 0;
     font-size: 4rem;
     text-align: center;
 }
@@ -110,6 +110,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
     background-color: $color-1; 
     #logo{
       margin: 10px 10px;
@@ -158,10 +161,12 @@ footer{
 @media screen and (max-width: 550px) { 
     #logo {
         width: 35%;
-        margin: 5px 10px;
+        margin: 5px 15px;
+        
     }
 
     * > h1{
+        margin: 50px 0 20px 0;
         font-size: 2.5rem;
         padding: 0 0 0 0;
     }

@@ -20,10 +20,10 @@ main article .blog-image {
   width: 18vw;
 }
 main article:hover {
-  transform: scalex(1.1) scaleY(1.1);
+  transform: scalex(1.05) scaleY(1.05);
 }
 main article:hover .blog-image {
-  filter: grayscale(1);
+  filter: grayscale(100%);
 }
 main a:hover {
   text-decoration: underline;
