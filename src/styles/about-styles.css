@@ -4,11 +4,12 @@ main {
   justify-content: center;
 }
 main article {
-  width: 45vw;
+  width: 40vw;
 }
 main #photo {
   align-self: flex-start;
-  height: 20vw;
+  height: 35vw;
+  max-height: 60vh;
   margin: 4rem 0 0 2rem;
 }
 
@@ -41,7 +42,7 @@ h3 .large-btn:hover {
   main #photo {
     align-self: center;
     height: 100%;
-    width: 30vw;
+    width: 50vw;
     margin: 2rem 0 0 0;
   }
   .large-btn {
@@ -55,8 +56,8 @@ h3 .large-btn:hover {
   }
   #photo {
     align-self: center;
-    height: 100%;
-    width: 30vw;
+    height: auto;
+    width: 50vw;
     margin: 2rem 0 0 0;
   }
 }/*# sourceMappingURL=about-styles.css.map */

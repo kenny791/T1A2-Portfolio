@@ -159,6 +159,12 @@ footer{
 
 // screens 550px wide or less (Phones)
 @media screen and (max-width: 550px) { 
+    // Header and navigation buttons
+        header .nav-btn{
+            margin: 0.5rem 0.5rem;
+        }
+    
+
     #logo {
         width: 35%;
         margin: 5px 15px;
