@@ -2,7 +2,6 @@
 
 [Hosted Portfolio Website](https://kl-t1a2.netlify.app/)  
 [Github Repo](https://github.com/kenny791/T1A2-Portfolio)  
-[Presentation](https://youtu.be/eFHsvj8F0fM)  
 
 ---
 
