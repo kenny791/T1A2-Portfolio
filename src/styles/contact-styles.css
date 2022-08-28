@@ -15,8 +15,7 @@ main h3 {
   display: flex;
   justify-content: space-between;
 }
-
-.social-logo {
+#social-btn .social-logo {
   display: block;
   height: 70px;
   width: 70px;
@@ -26,8 +25,7 @@ main h3 {
   transition: all 0.1s ease-in-out;
   filter: invert(1);
 }
-
-.social-logo:hover {
+#social-btn .social-logo:hover {
   transform: scale(1.2);
 }
 

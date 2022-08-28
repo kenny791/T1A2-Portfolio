@@ -1,55 +1,33 @@
-// *{border: 1px solid red}
-
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     section{
-        // flex-wrap: wrap;
         padding: 0 50px 0 50px;
-        // min-width: 40vw;
     }
-
     h3{
     margin: 10px 0 0 0;
     }
 }
 
-
-
-
 // Social media icons
-
 #social-btn{
     display: flex;
     justify-content: space-between;
+    .social-logo{
+        display: block;
+        height: 70px;
+        width: 70px;
+        border-radius: 15%;
+        object-fit: cover;
+        transition: all .1s ease-in-out;
+        filter: invert(1);    
+    }
+    .social-logo:hover{
+        transform: scale(1.2); 
+    }
 }
-
-.social-logo{
-    display: block;
-    height: 70px;
-    width: 70px;
-    border-radius: 15%;
-    object-fit: cover;
-    transition: all .1s ease-in-out;
-
-    filter: invert(1);    
-    // margin: 10px 10px 0 0;
-}
-
-.social-logo:hover{
-    transform: scale(1.2); 
-}
-
-
-
-
-
-
-
-
-
 
 // screens 900px wide or less
 @media screen and (max-width: 900px) {
@@ -66,45 +44,19 @@ main{
             h1{
                 margin: 20px 0 0 0;
             }
-            // #social-container{
-            //     display: flex;
-            //     flex-direction: column;
-            //     justify-content: center;  
-            // }
-            // #social-btn{
-                // display: flex;
-                // flex-direction: row;
-                // justify-content: space-between;   
-            // }
             .social-logo{
                 height: 50px;
                 width: 50px;
                 margin: 10px 5px 0 5px;
             }
         }
-
     }
-
-
-
-    // h1{
-    //     text-align: center;
-    //     border: 2px solid red;
-    //     padding: 30 0 0 0;
-    // }
 }
-
-
-
 
 // screens 550px wide or less
 @media screen and (max-width: 550px) { 
-
-
-
     .social-logo{
         max-width: 40px;
         max-height: 40px;
     }
-    
 }

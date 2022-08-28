@@ -1,11 +1,17 @@
 
 // * {border: 1px solid red;}
 main {
+
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     article{
         width: 40vw;
+    }
+    h1{
+        width: 100vw;
+        margin-bottom: 0;
     }
     #photo{    
         align-self:flex-start;
@@ -31,14 +37,7 @@ h3{
         padding: 1em;
     }
 
-
 }
-
-
-
-
-
-
 
 
 
@@ -50,6 +49,7 @@ h3{
         article{
             width: 80vw;
         }
+
         #photo{
             align-self: center;
             height: 100%;
@@ -60,9 +60,6 @@ h3{
     .large-btn{
     margin: 10px ;
     }
-
-
-
 }
 
 
@@ -70,7 +67,6 @@ h3{
 @media screen and (max-width: 550px) {
     article{
         min-width: 100%;
-        // padding: 0 10px 0 10px;
     }
     #photo{
         align-self: center;
@@ -78,6 +74,4 @@ h3{
         width: 50vw;
         margin: 2rem 0 0 0;
     }
-
-
 }

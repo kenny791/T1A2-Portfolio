@@ -1,11 +1,3 @@
-
-
-
-// *{
-//     border: 1px solid red
-// }
-
-
 main {
     display: flex;
     flex-direction: column;
@@ -32,7 +24,6 @@ article{
 }
 
 
-
 // screens 900px wide or less
 @media screen and (max-width: 900px) { 
     
@@ -48,7 +39,6 @@ article{
         }
     }
 }
-
 
 // screens 500px wide or less
 @media screen and (max-width: 550px) { 

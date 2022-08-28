@@ -28,7 +28,7 @@ The website is intended to be viewed by prospective employers and clients within
 ## Functionality and Features
 The design of the website is intended to be minimalist and clean, providing a quick overview of the person, and as well all contact information.
 The is achiveved with the following features:
-- Home page: Contains a portrait, name and short description.
+- Index page: Contains a portrait, name and short description.
 - About page: Provides more details of the technical skills, relevant experience, education, and interests. A PDF of the resume can be downloaded here.
 - Blog page: Blog posts can be feautred with a large image and headline.
 - Contact page: Allows for prospecitve employers to view social media links to peruse projects and interests, in additional to contact information if they would like to reach out personally.
@@ -46,16 +46,16 @@ The is achiveved with the following features:
 ---
 
 ## Sitemap/Overview
-The structure of the website is shown in thef folling sitemap.  
+The structure of the website is shown in thef following sitemap.  
 Visitors will be able to navigatate to the About, Blogs, adn Contact page through the navigation bar in the header.  
  Blog posts can be accessed through the blog page. 
-The logo in the top lef of the header is also used to return the visitor to the homepage.
+The logo in the top lef of the header is also used to return the visitor to the index page.
 
 ![Sitemap](/docs/sitemap.png)
 
 ## Wireframes
-### Home page
-![Wireframe of home page](/docs/wireframe-home.png)
+### Index page
+![Wireframe of index page](/docs/wireframe-index.png)
 ### About page
 ![Wireframe of about page](/docs/wireframe-about.png)
 ### Blog page
@@ -66,9 +66,10 @@ The logo in the top lef of the header is also used to return the visitor to the 
 ![Wireframe of contact page](/docs/wireframe-contact.png)
 <br>
 <br>
+
 ## Screenshots
-### Home page
-![Screenshot of home page](/docs/screenshot-home.png)
+### Index page
+![Screenshot of index page](/docs/screenshot-index.png)
 ### About page
 ![Screenshot of about page](/docs/screenshot-about.png)
 ### Blog page
