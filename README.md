@@ -1,7 +1,7 @@
 # Kenny Lai T1A2 - Portfolio
 
 [Hosted Portfolio Website](https://kl-t1a2.netlify.app/)  
-[Github Repo](https://github.com/kenny791/T1A2-Portfolio)  
+
 
 ---
 
@@ -19,8 +19,7 @@
 
 
 ## Purpose
-The website is to be a portfolio, demostrating my technical skils, providing an background of my experince and interests, and for visitors to be able to get in contact with me.  
-It is intended for the portfolio to be furthur updated with projects and learnings as I continue learning through Coder Academy.
+This website is to serve as a portfolio that showcases my technical skills, highlights my background and interests, and allows visitors to easily contact me. 
 
 ## Target Audience
 The website is intended to be viewed by prospective employers and clients within the tech community.
