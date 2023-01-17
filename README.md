@@ -1,6 +1,6 @@
 # Kenny Lai T1A2 - Portfolio
 
-[Hosted Portfolio Website](https://kl-t1a2.netlify.app/)  
+[Hosted Portfolio Website](https://kenwebdev.netlify.app/)  
 
 
 ---
